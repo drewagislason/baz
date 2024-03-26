@@ -1,11 +1,11 @@
-# Package bar
+# Package baz
 
-Version 1.0
+Version 1.1
 
-Library that multiplies two numbers
+Library to square a number. Uses the qux_power() from qux package.
 
 ## API
 
 ```
-int bar_multiply(int a, int b);
+int baz_square(int a);
 ```
